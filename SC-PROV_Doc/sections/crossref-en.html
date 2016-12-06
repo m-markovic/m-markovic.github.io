@@ -1,0 +1,999 @@
+<h2  id="crossreference" class="list">Cross reference for sc-prov classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by sc-prov.
+<div id="classes">
+   <h3 id="classes" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#Action" title="https://w3id.org/abdn/socialcomp/sc-prov#Action">Action</a>
+      </li>
+      <li>
+         <a href="#Condition"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#Condition">Condition</a>
+      </li>
+      <li>
+         <a href="#EvaluationContext"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#EvaluationContext">Evaluation Context</a>
+      </li>
+      <li>
+         <a href="#Imposition"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#Imposition">Imposition</a>
+      </li>
+      <li>
+         <a href="#Incentive"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#Incentive">Incentive</a>
+      </li>
+      <li>
+         <a href="#Input" title="https://w3id.org/abdn/socialcomp/sc-prov#Input">Input</a>
+      </li>
+      <li>
+         <a href="#Output" title="https://w3id.org/abdn/socialcomp/sc-prov#Output">Output</a>
+      </li>
+      <li>
+         <a href="#ParameterCollection"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#ParameterCollection">Parameter Collection</a>
+      </li>
+      <li>
+         <a href="#Purpose" title="https://w3id.org/abdn/socialcomp/sc-prov#Purpose">Purpose</a>
+      </li>
+      <li>
+         <a href="#RoleSpec"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#RoleSpec">Role Specification</a>
+      </li>
+      <li>
+         <a href="#SocialActorSpec"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#SocialActorSpec">Social Actor Specification</a>
+      </li>
+   </ul>
+   <div class="entity" id="Action">
+      <h3>Action<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#Action</p>
+      <div class="comment">
+         <span class="markdown">Action is the scope of the expected activity performed by agents that correspond to sc-prov:SocialActorSpec.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Purpose" title="https://w3id.org/abdn/socialcomp/sc-prov#Purpose">Purpose</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#qualifiedAction"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedAction">qualifiedAction</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Imposition"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#Imposition">Imposition</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Input" title="https://w3id.org/abdn/socialcomp/sc-prov#Input">Input</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Output" title="https://w3id.org/abdn/socialcomp/sc-prov#Output">Output</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Condition">
+      <h3>Condition<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#Condition</p>
+      <div class="comment">
+         <span class="markdown">An sc-prov:Condition defines a state of the world described by a logical state- ment that is used to define a desired state of a particular aspect of a successful step.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasParameter"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#hasParameter">hasParameter</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isConditionOfPlan"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#isConditionOfPlan">isConditionOfPlan</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isImposedOn"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#isImposedOn">isImposedOn</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#qualifiedImposition"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedImposition">qualifiedImposition</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hadCondition"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#hadCondition">hadCondition</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <span class="dotted" title="http://purl.org/net/p-plan#Step">step</span>, <span class="dotted" title="http://purl.org/net/p-plan#Variable">variable</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="EvaluationContext">
+      <h3>Evaluation Context<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#EvaluationContext</p>
+      <div class="comment">
+         <span class="markdown">A concept used to connect the evaluation result of a particular sc-prov:Condition (C1) with a single executed p-plan:Activity corresponding to the step associated with C1.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hadEvaluationSubject"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#hadEvaluationSubject">hadActivity</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hadCondition"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#hadCondition">hadCondition</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hadResult"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#hadResult">hadResult</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Imposition">
+      <h3>Imposition<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#Imposition</p>
+      <div class="comment">
+         <span class="markdown">Imposition is the subjection of p-plan:Step to the constraints described by sc- prov:Condition.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Purpose" title="https://w3id.org/abdn/socialcomp/sc-prov#Purpose">Purpose</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#qualifiedImposition"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedImposition">qualifiedImposition</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Action" title="https://w3id.org/abdn/socialcomp/sc-prov#Action">Action</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Input" title="https://w3id.org/abdn/socialcomp/sc-prov#Input">Input</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Output" title="https://w3id.org/abdn/socialcomp/sc-prov#Output">Output</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Incentive">
+      <h3>Incentive<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#Incentive</p>
+      <div class="comment">
+         <span class="markdown">Incentive is a kind of p-plan:Variable and represents a thing (e.g. monetary value, increased knowledge, etc.) that would be realised by a worker following successful completion of a task.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://purl.org/net/p-plan#Variable">variable</span>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasIncentive"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#hasIncentive">hasIncentive</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#SocialActorSpec"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#SocialActorSpec">Social Actor Specification</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Input">
+      <h3>Input<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#Input</p>
+      <div class="comment">
+         <span class="markdown">Input describes a specification context in which a p-plan:Variable is expected to be taken as an input for a p-plan:Step.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Purpose" title="https://w3id.org/abdn/socialcomp/sc-prov#Purpose">Purpose</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#qualifiedInput"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedInput">qualifiedInput</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Action" title="https://w3id.org/abdn/socialcomp/sc-prov#Action">Action</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Imposition"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#Imposition">Imposition</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Output" title="https://w3id.org/abdn/socialcomp/sc-prov#Output">Output</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Output">
+      <h3>Output<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#Output</p>
+      <div class="comment">
+         <span class="markdown">Output describes a specification context in which a p-plan:Variable is expected
+to be produced as an output of a p-plan:Step.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Purpose" title="https://w3id.org/abdn/socialcomp/sc-prov#Purpose">Purpose</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#qualifiedOutput"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedOutput">qualifiedOutput</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Action" title="https://w3id.org/abdn/socialcomp/sc-prov#Action">Action</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Imposition"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#Imposition">Imposition</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Input" title="https://w3id.org/abdn/socialcomp/sc-prov#Input">Input</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ParameterCollection">
+      <h3>Parameter Collection<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#ParameterCollection</p>
+      <div class="comment">
+         <span class="markdown">A kind of prov:Collection which is used to encapsulate the in-
+stances of prov:Entity that were used as parameters to evaluate a particular sc-prov:Condition.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/prov#Collection">collection</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Purpose">
+      <h3>Purpose<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#Purpose</p>
+      <div class="comment">
+         <span class="markdown">Purpose is the expected scope of influence of a p-plan:Variable or an sc- prov:Condition on a p-plan:Step.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#Action" title="https://w3id.org/abdn/socialcomp/sc-prov#Action">Action</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Imposition"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#Imposition">Imposition</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Input" title="https://w3id.org/abdn/socialcomp/sc-prov#Input">Input</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Output" title="https://w3id.org/abdn/socialcomp/sc-prov#Output">Output</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasRoleSpec"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#hasRoleSpec">hasRoleSpec</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isPurposeInPlan"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#isPurposeInPlan">isPurposeInPlan</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#qualifiedPurpose"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedPurpose">qualifiedPurpose</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RoleSpec">
+      <h3>Role Specification<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#RoleSpec</p>
+      <div class="comment">
+         <span class="markdown">A role specification is the function of a variable, a social actor, or a condition in the context of a particular step.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasRoleSpec"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#hasRoleSpec">hasRoleSpec</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="SocialActorSpec">
+      <h3>Social Actor Specification<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#SocialActorSpec</p>
+      <div class="comment">
+         <span class="markdown">An sc-prov:SocialActor is a kind of p-plan:Variable and represents a desired specification of an agent who should be associated with a p-plan:Step in order to perform a non- administrative function in a social computation process.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://purl.org/net/p-plan#Variable">variable</span>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#performs"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#performs">performs</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#qualifiedAction"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedAction">qualifiedAction</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#requests"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#requests">requests</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#correspondsToActor"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#correspondsToActor">correspondsToActor</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Incentive"
+               title="https://w3id.org/abdn/socialcomp/sc-prov#Incentive">Incentive</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#correspondsToActor"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#correspondsToActor">correspondsToActor</a>
+      </li>
+      <li>
+         <a href="#hadParameterCollection"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#hadParameterCollection">had Parameter Collection</a>
+      </li>
+      <li>
+         <a href="#hadEvaluationSubject"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#hadEvaluationSubject">hadActivity</a>
+      </li>
+      <li>
+         <a href="#hadCondition"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#hadCondition">hadCondition</a>
+      </li>
+      <li>
+         <a href="#hadResult"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#hadResult">hadResult</a>
+      </li>
+      <li>
+         <a href="#hasIncentive"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#hasIncentive">hasIncentive</a>
+      </li>
+      <li>
+         <a href="#hasParameter"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#hasParameter">hasParameter</a>
+      </li>
+      <li>
+         <a href="#hasRoleSpec"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#hasRoleSpec">hasRoleSpec</a>
+      </li>
+      <li>
+         <a href="#isConditionOfPlan"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#isConditionOfPlan">isConditionOfPlan</a>
+      </li>
+      <li>
+         <a href="#isImposedOn"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#isImposedOn">isImposedOn</a>
+      </li>
+      <li>
+         <a href="#isPurposeInPlan"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#isPurposeInPlan">isPurposeInPlan</a>
+      </li>
+      <li>
+         <a href="#performs"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#performs">performs</a>
+      </li>
+      <li>
+         <a href="#qualifiedAction"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedAction">qualifiedAction</a>
+      </li>
+      <li>
+         <a href="#qualifiedImposition"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedImposition">qualifiedImposition</a>
+      </li>
+      <li>
+         <a href="#qualifiedInput"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedInput">qualifiedInput</a>
+      </li>
+      <li>
+         <a href="#qualifiedOutput"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedOutput">qualifiedOutput</a>
+      </li>
+      <li>
+         <a href="#qualifiedPurpose"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedPurpose">qualifiedPurpose</a>
+      </li>
+      <li>
+         <a href="#requests"
+            title="https://w3id.org/abdn/socialcomp/sc-prov#requests">requests</a>
+      </li>
+      <li>
+         <a href="#target" title="https://w3id.org/abdn/socialcomp/sc-prov#target">target</a>
+      </li>
+   </ul>
+   <div class="entity" id="correspondsToActor">
+      <h3>correspondsToActor<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#correspondsToActor</p>
+      <div class="comment">
+         <span class="markdown">A relation that links a prov:Agent to its expected description captured by sc-prov-o:SocialActorSpec.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/prov#Agent">agent</span>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#SocialActorSpec"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#SocialActorSpec">Social Actor Specification</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hadParameterCollection">
+      <h3>had Parameter Collection<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#hadParameterCollection</p>
+      <div class="comment">
+         <span class="markdown">A relation that is used to associate an sc-prov:ParameterCollection with an sc-prov:EvaluationContext</span>
+      </div>
+   </div>
+   <div class="entity" id="hadEvaluationSubject">
+      <h3>hadActivity<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#hadEvaluationSubject</p>
+      <div class="comment">
+         <span class="markdown">A relation describing that a particular p-plan:Activity captured as
+part of the sc-prov-o:EvaluationContext is the activity for which the condition was evaluated.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#EvaluationContext"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#EvaluationContext">Evaluation Context</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://purl.org/net/p-plan#Activity">activity</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hadCondition">
+      <h3>hadCondition<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#hadCondition</p>
+      <div class="comment">
+         <span class="markdown">A relation that links a specific sc-prov-o:evaluationContext to the sc-prov-o:Condition for which the evaluation was sought for.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#EvaluationContext"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#EvaluationContext">Evaluation Context</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Condition"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#Condition">Condition</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hadResult">
+      <h3>hadResult<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#hadResult</p>
+      <div class="comment">
+         <span class="markdown">A relation describing that a particular p-plan:Entity represents the evaluation result of specific condition applicable to the state of the world described by the sc- prov-o:EvaluationContext.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#EvaluationContext"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#EvaluationContext">Evaluation Context</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://purl.org/net/p-plan#Entity">entity</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasIncentive">
+      <h3>hasIncentive<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#hasIncentive</p>
+      <div class="comment">
+         <span class="markdown">placeholder</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://purl.org/net/p-plan#Step">step</span>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Incentive"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#Incentive">Incentive</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasParameter">
+      <h3>hasParameter<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#hasParameter</p>
+      <div class="comment">
+         <span class="markdown">sc-prov:hasParameter is a relation defining that a p-plan:Variable provides a
+parameter value for the sc-prov:Condition.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Condition"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#Condition">Condition</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://purl.org/net/p-plan#Variable">variable</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasRoleSpec">
+      <h3>hasRoleSpec<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#hasRoleSpec</p>
+      <div class="comment">
+         <span class="markdown">A relation that links an instance of sc-prov-o:Purpose with a single specifica- tion of the assigned sc-prov-o: RoleSpec.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Purpose" title="https://w3id.org/abdn/socialcomp/sc-prov#Purpose">Purpose</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#RoleSpec"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#RoleSpec">Role Specification</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isConditionOfPlan">
+      <h3>isConditionOfPlan<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#isConditionOfPlan</p>
+      <div class="comment">
+         <span class="markdown">Links an instance of an sc-prov-o:Condition to a specific instance of a p-plan:Plan</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Condition"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#Condition">Condition</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/prov#Plan">plan</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isImposedOn">
+      <h3>isImposedOn<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#isImposedOn</p>
+      <div class="comment">
+         <span class="markdown">sc-prov:isImposedOn is a relation defining that an sc-prov:Condition is defined for a p-plan:Step.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Condition"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#Condition">Condition</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://purl.org/net/p-plan#Step">step</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isPurposeInPlan">
+      <h3>isPurposeInPlan<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#isPurposeInPlan</p>
+      <div class="comment">
+         <span class="markdown">Links an instance of a sc-prov-o:Purpose to a specific instance of a p-plan:Plan</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Purpose" title="https://w3id.org/abdn/socialcomp/sc-prov#Purpose">Purpose</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/prov#Plan">plan</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="performs">
+      <h3>performs<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#performs</p>
+      <div class="comment">
+         <span class="markdown">sc-prov:performs is a relation defining that an sc-prov:socialActor defines a description of an agent that will bear some responsibility for the activity described by p-plan:Step.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#SocialActorSpec"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#SocialActorSpec">Social Actor Specification</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://purl.org/net/p-plan#Step">step</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="qualifiedAction">
+      <h3>qualifiedAction<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#qualifiedAction</p>
+      <div class="comment">
+         <span class="markdown">A relation that links an sc-prov-o: SocialActorSpec to the scope of the expected
+activity performed by agents that correspond to such sc-prov-o: SocialActorSpec.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#qualifiedPurpose"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedPurpose">qualifiedPurpose</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#SocialActorSpec"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#SocialActorSpec">Social Actor Specification</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Action" title="https://w3id.org/abdn/socialcomp/sc-prov#Action">Action</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="qualifiedImposition">
+      <h3>qualifiedImposition<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#qualifiedImposition</p>
+      <div class="comment">
+         <span class="markdown">A relation that links an sc-prov-o: Condition to an sc-prov-o: Imposition which
+describes the subjection of a p-plan:Step to the constraints described by the sc-prov:Condition.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#qualifiedPurpose"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedPurpose">qualifiedPurpose</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Condition"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#Condition">Condition</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Imposition"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#Imposition">Imposition</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="qualifiedInput">
+      <h3>qualifiedInput<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#qualifiedInput</p>
+      <div class="comment">
+         <span class="markdown">A relation that links a p-plan: Variable to the description of the specification context in which a variable is expected to be taken as an input for a step (sc-prov-o: Input).</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#qualifiedPurpose"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedPurpose">qualifiedPurpose</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://purl.org/net/p-plan#Variable">variable</span>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Input" title="https://w3id.org/abdn/socialcomp/sc-prov#Input">Input</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="qualifiedOutput">
+      <h3>qualifiedOutput<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#qualifiedOutput</p>
+      <div class="comment">
+         <span class="markdown">A relation that links a p-plan: Variable to the description of the specification context in which a variable is expected to be produced as an output of a step (sc-prov-o: Output).</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#qualifiedPurpose"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedPurpose">qualifiedPurpose</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://purl.org/net/p-plan#Variable">variable</span>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Output" title="https://w3id.org/abdn/socialcomp/sc-prov#Output">Output</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="qualifiedPurpose">
+      <h3>qualifiedPurpose<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#qualifiedPurpose</p>
+      <div class="comment">
+         <span class="markdown">A relation that links a p-plan:Variable or an sc-prov:Condition with the descrip-
+tion of their expected scope of influence on a p-plan:Step.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#qualifiedAction"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedAction">qualifiedAction</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#qualifiedImposition"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedImposition">qualifiedImposition</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#qualifiedInput"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedInput">qualifiedInput</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#qualifiedOutput"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#qualifiedOutput">qualifiedOutput</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://purl.org/net/p-plan#Variable">variable</span> 
+               <span class="logic">or</span> 
+               <a href="#Condition"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#Condition">Condition</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Purpose" title="https://w3id.org/abdn/socialcomp/sc-prov#Purpose">Purpose</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="requests">
+      <h3>requests<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#requests</p>
+      <div class="comment">
+         <span class="markdown">sc-prov:requests is a relation defining that a prov:Agent corresponding to the sc-prov:socialActor description is responsible for existence of the particular p-plan:Step.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#SocialActorSpec"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#SocialActorSpec">Social Actor Specification</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://purl.org/net/p-plan#Step">step</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="target">
+      <h3>target<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/abdn/socialcomp/sc-prov#target</p>
+      <div class="comment">
+         <span class="markdown">A relation that links an sc-prov-o:Purpose with the subject of its influence, i.e. a p-plan:Step.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://purl.org/net/p-plan#Variable">variable</span> 
+               <span class="logic">or</span> 
+               <a href="#Condition"
+                  title="https://w3id.org/abdn/socialcomp/sc-prov#Condition">Condition</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://purl.org/net/p-plan#Step">step</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div>
